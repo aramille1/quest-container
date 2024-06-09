@@ -1,0 +1,26 @@
+.quest__list {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 863px;
+  max-height: 475px;
+  margin: 5% auto;
+  overflow: scroll;
+
+  &__header {
+    display: flex;
+    align-items: center;
+
+    &-title {
+      font-size: 22px;
+      font-weight: 700;
+      margin-bottom: 20px;
+      line-height: 28px;
+    }
+
+    &-icon {
+      margin-top: 5px;
+      padding-left: 5px;
+    }
+  }
+}
