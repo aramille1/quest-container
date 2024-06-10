@@ -1,8 +1,20 @@
-# Getting Started with Create React App
+# Quest container
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+This project implements a Quest Container feature using React and SCSS. The implementation follows the BEM methodology and the smart/dumb component pattern.
+
+## Setup
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/aramille1/quest-container.git
+
+   cd quest-app
+
+   npm install
+
+## Running the project
 
 In the project directory, you can run:
 
@@ -68,3 +80,16 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+Technologies Used
+
+React
+SCSS
+BEM methodology
+Features
+
+Mock API call to fetch quests
+Smart component for handling data fetching
+Dumb components for rendering UI
+Styled using SCSS with BEM methodology
+
